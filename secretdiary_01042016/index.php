@@ -10,7 +10,11 @@ include("submit.php");
         <title>Diary</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <script type="text/javascript" src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        
+        <script>
+            $(".contentContainer").css("min-height", $(window).height());
+        </script>
         <style>
             .left{
                 margin-left: 10px;
@@ -120,7 +124,7 @@ include("submit.php");
                     }
                     
                     ?>
-                    <form class='top' method="post">
+                    <form class='top bottom' method="post">
                         <div class="input-group">
                             <span class="input-group-addon">@</span>
                             <input type='email' class='form-control' placeholder="Email Address" value="" name="emailsignup" required>
@@ -130,7 +134,7 @@ include("submit.php");
                             <input type='password' class='form-control' placeholder="Password" value="" name="passwordsignup" required>
                         </div>
 
-                        <input type='submit' class='btn btn-success top col-md-offset-5' name="signup" value='SignUp'>
+                        <input type='submit' class='btn btn-success top col-md-offset-5 bottom' name="signup" value='SignUp'>
 
                     </form>
                 </div>
@@ -190,8 +194,5 @@ include("submit.php");
         </div>
 
 
-        <script>
-            $(".contentContainer").css("min-height", $(window).height());
-        </script>
     </body>
 </html>

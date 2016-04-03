@@ -50,7 +50,7 @@ if($values){
         {
             $error = "Please enter Email and password to sign Up";
         }
-        if (isset($resultsignup))
+        if (!isset($resultsignup))
         {
             $error = "Unable to sign up <br>".$error;
         } 
