@@ -63,7 +63,7 @@ include("submit.php");
                     <?php
                     if(isset($error)){echo '<div class="alert alert-danger">'.$error.'</div>';
                     }
-                    if(isset($message)){echo '<div class="alert alert-danger">'.$message.'</div>';
+                    if(isset($message)){echo '<div class="alert alert-success">'.$message.'</div>';
                     }
                     
                     ?>
