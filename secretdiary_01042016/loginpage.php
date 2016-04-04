@@ -88,7 +88,7 @@ $row1 = mysqli_fetch_array($resultlogin);
                 <div class="navbar-nav nav pull-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">LogOut</a></li>
-
+                        
                     </ul>
 
                 </div>
