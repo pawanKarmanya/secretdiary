@@ -33,7 +33,7 @@ include("submit.php");
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#"></a></li>
-                        <li class="active"><a href="#backimg">Home</a></li>
+                        <li class="active"><a href="">Home</a></li>
 
                     </ul>
                     <form class="navbar-form navbar-right" method="post" >
